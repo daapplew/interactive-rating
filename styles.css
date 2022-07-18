@@ -1,0 +1,72 @@
+*:root{
+    background-color: #212121;
+    margin:0;
+    /* padding:; */
+    color: white;
+    box-sizing: border-box;
+    width: 500px;
+   
+    
+}
+
+p {
+    color:gray;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+
+div .main {
+    border: 2px solid white;
+    background-color: #2D4059;
+    margin: auto auto;
+    padding: 30px;
+    /* height: 150px; */
+}
+
+
+
+.ratings{
+    text-align: center;
+    
+}
+
+.ratings button{
+    color: aliceblue;
+    padding: auto auto;
+    margin: 5px;
+    
+    border-radius: 100%;
+    background-color: gray;
+    box-shadow: none;
+    
+}
+.ratings button:active{
+    background-color: orangered;
+}
+
+.submit{
+    text-align: center;
+    margin: 10px
+}
+
+.submit button{
+    color:aliceblue;
+background-color: orangered;
+border-radius: 20px;
+padding: 5% 25%;
+
+}
+
+.submit button:active {
+    background-color: gray;
+}
